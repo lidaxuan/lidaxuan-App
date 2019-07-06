@@ -1,0 +1,371 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+i,
+u,
+div,
+input,
+ul,
+li,
+button,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    /* height: 100%; */
+    /* overflow-x: hidden; */
+    -webkit-text-size-adjust: none !important;
+    -webkit-text-size-adjust: 100% !important;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+input:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+input {
+    outline-color: invert;
+    outline-style: none;
+    outline-width: 0px;
+    border: none;
+    border-style: none;
+    text-shadow: none;
+    -webkit-appearance: none; 
+    -webkit-user-select: text;
+    outline-color: transparent;
+    box-shadow: none;
+}
+
+::-moz-placeholder {
+    color: #c8c8c8;
+}
+
+::-webkit-input-placeholder {
+    color: #c8c8c8;
+}
+
+:-ms-input-placeholder {
+    color: #c8c8c8;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header img {
+    width: 100%;
+    display: block;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer img {
+    width: 100%;
+    display: block;
+}
+
+.footer .logo {
+    position: absolute;
+    width: 2.2rem;
+    top: 3.25rem;
+    left: 37%;
+}
+
+
+/* input { pointer-events: none; } */
+
+
+/* 下载 */
+
+.download_header {
+    width: 100%;
+    height: 1.8rem;
+    background: #fff;
+    padding: 0 .71rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.download_header img {
+    width: 2.5rem;
+    margin-top: .4rem;
+    display: inline-block;
+}
+
+.download_header .download_btn {
+    width: 2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: #fff;
+    text-align: center;
+    font-size: 0.36rem;
+    background: #FF6043;
+    border-radius: .1rem;
+    margin-left: 1.4rem;
+    margin-top: 0.46rem;
+}
+
+[contenteditable="true"],
+input,
+textarea {
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;
+}
+
+.belost {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 988;
+    background-color: #fff;
+    text-align: center;
+    color: #999999;
+    font-size: .3rem;
+}
+
+.belost img {
+    width: 60%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+i,
+em {
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+i,
+u,
+div,
+input,
+ul,
+li,
+button,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    /* height: 100%; */
+    /* overflow-x: hidden; */
+    -webkit-text-size-adjust: none !important;
+    -webkit-text-size-adjust: 100% !important;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+input[type="text"] {
+    outline-color: invert;
+    outline-style: none;
+    outline-width: 0px;
+    border: none;
+    border-style: none;
+    text-shadow: none;
+    /* -webkit-appearance: none; */
+    /* -webkit-user-select: text; */
+    outline-color: transparent;
+    box-shadow: none;
+}
+
+::-moz-placeholder {
+    color: #c8c8c8;
+}
+
+::-webkit-input-placeholder {
+    color: #c8c8c8;
+}
+
+:-ms-input-placeholder {
+    color: #c8c8c8;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header img {
+    width: 100%;
+    display: block;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer img {
+    width: 100%;
+    display: block;
+}
+
+.footer .logo {
+    position: absolute;
+    width: 2.2rem;
+    top: 3.25rem;
+    left: 37%;
+}
+
+
+/* input { pointer-events: none; } */
+
+
+/* 下载 */
+
+.download_header {
+    width: 100%;
+    height: 1.8rem;
+    background: #fff;
+    padding: 0 .71rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.download_header img {
+    width: 2.5rem;
+    margin-top: .4rem;
+    display: inline-block;
+}
+
+.download_header .download_btn {
+    width: 2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: #fff;
+    text-align: center;
+    font-size: 0.36rem;
+    background: #FF6043;
+    border-radius: .1rem;
+    margin-left: 1.4rem;
+    margin-top: 0.46rem;
+}
+
+[contenteditable="true"],
+input,
+textarea {
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;
+}
+
+.belost {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 988;
+    background-color: #fff;
+    text-align: center;
+    color: #999999;
+    font-size: .3rem;
+}
+
+.belost img {
+    width: 60%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+body {
+    background-color: #fff;
+}
