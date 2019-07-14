@@ -4,7 +4,7 @@
             <img src="../../assets/images/founder.png" alt="">
         </div>
 
-        <div class="menu-group">
+        <div @click="articleListBtn" class="menu-group">
             <img src="../../assets/images/articleList.png" alt="">
         </div>
 
@@ -21,7 +21,16 @@
 
 <script>
     export default {
-
+        data() {
+            return {
+                className: 'animArticle'
+            }
+        },
+        methods: {
+            articleListBtn() {
+                this.$emit('func',this.className)
+            }
+        },
     }
 </script>
 

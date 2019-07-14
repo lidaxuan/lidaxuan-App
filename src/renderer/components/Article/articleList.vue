@@ -1,6 +1,6 @@
 <template>
     <div class="articleList no-drag">
-        <ul>
+        <ul >
             <li v-for="(item, i) in list" :key="i">
                 <div>
                     <p class="title">{{item.tit}}</p>

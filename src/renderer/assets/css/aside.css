@@ -1,0 +1,88 @@
+.wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #dfdfdf;
+}
+.wrap /deep/ .el-scrollbar__wrap {
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.logo {
+  -webkit-app-region: drag;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo .avatar {
+  width: 50px;
+  height: 50px;
+}
+.logo .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.scroll-page {
+  overflow: hidden;
+}
+.scroll-page /deep/ .el-scrollbar__wrap {
+  overflow: hidden !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+}
+.menu-view {
+  flex: 1;
+  overflow: hidden;
+  z-index: 100;
+  -webkit-app-region: drag;
+}
+.menu-view .menu-group {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.menu-view .menu-group img {
+  cursor: pointer;
+  width: 40px;
+}
+.menu-view .menu-group:hover {
+  background-color: green;
+}
+.user-info {
+  -webkit-app-region: drag;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-info .avatar {
+  width: 50px;
+  height: 50px;
+}
+.user-info .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.user-info .type-icons {
+  display: flex;
+  justify-content: center;
+}
+.user-info .type-icons i {
+  font-size: 22px;
+  color: #999;
+  margin-left: 8px;
+}
+.user-info .type-icons i:first-child {
+  margin-left: 0;
+}

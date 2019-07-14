@@ -1,7 +1,8 @@
 <template>
     <el-dialog :visible.sync="dialogVisible" :append-to-body="true" width="340px" :close-on-click-modal="false" custom-class="login-dialog">
         <div class="login-body">
-            <i class="icon el-icon-service"></i>
+            <!-- <i class="icon el-icon-service"></i> -->
+                            <img src="../../assets/images/lidauxan.jpg" alt="">
             <div class="from">
                 <div class="input-items">
                     <div class="input-box">
